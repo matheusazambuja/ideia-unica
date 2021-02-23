@@ -11,7 +11,7 @@ function Tempo(props) {
     )
 }
 
-export function getStaticProps() {
+export async function getStaticProps() {
     console.log('> Passando pelo getStaticProps();')
     console.log('> Adicionando delay de 5 segundos')
 
